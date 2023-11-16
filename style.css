@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +12,8 @@ body{
 }
 .contenedor{
     display: flex;
-
+    font-family: 'Fraunces' ;
+    font-weight: 700;
     align-items: center;
     justify-content: space-around;
 }
@@ -34,6 +37,8 @@ body{
 .contenedor_two{
     display: flex;
     align-items: center;
+    font-family: 'Fraunces' ;
+    font-weight: 700;
 }
 .contenedor_3{
 
