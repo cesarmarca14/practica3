@@ -5,17 +5,15 @@
 }
 
 section{
-    background: rebeccapurple;
+    display: flex;
     width: 1440px;
+    
 }
 .main{
-    
+    /* border: solid; */
     display: flex;
     margin: auto;
-    width: 1440px;
-    
-    
-    /* background: rebeccapurple; */
+    /* width: 1440px; */
     align-items: flex-start;
     
     
@@ -24,7 +22,7 @@ section{
 .main-img{
 display: flex;
 width: 1440px;
-border: solid;
+/* border: solid; */
     
 }
 
@@ -32,10 +30,6 @@ img{
     width: 352px;
 }
 
-.texto{
-    border: solid red;
-    display: flex;
-    justify-content: space-around; 
     
  
   
@@ -43,12 +37,3 @@ img{
 
  
     
-}
-
-.titulo{
-    font-size: 80px;
-    text-align: center;
-}
-.subtitulos{
-    font-size: 20px;
-}
