@@ -8,3 +8,35 @@ body{
     width: 1440px;
 
 }
+.contenedor{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+.contenedor_dos{
+
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.transformador{
+
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.texto{
+    margin-bottom: 30px;
+}
+.learn{
+    font-size: 18px
+}
+.contenedor_two{
+    display: flex;
+    align-items: center;
+}
+.contenedor_3{
+
+    margin-left: 100px;
+    margin-right: 80px;
+}
