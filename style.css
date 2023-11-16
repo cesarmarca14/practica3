@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -78,3 +80,39 @@ h1 {
     display: flex;
     justify-content: space-around;
   }
+
+.contenedor{
+    display: flex;
+    font-family: 'Fraunces' ;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-around;
+}
+.contenedor_dos{
+
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.transformador{
+
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.texto{
+    margin-bottom: 30px;
+}
+.learn{
+    font-size: 18px
+}
+.contenedor_two{
+    display: flex;
+    align-items: center;
+    font-family: 'Fraunces' ;
+    font-weight: 700;
+}
+.contenedor_3{
+
+    margin-left: 100px;
+    margin-right: 80px;
+}
