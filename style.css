@@ -7,8 +7,13 @@
 }
 
 body{
-    width: 1440px;
+  display: flex;
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 
 /* Christofer frutas */
 .fruit{
@@ -116,3 +121,13 @@ h1 {
     margin-left: 100px;
     margin-right: 80px;
 }
+
+
+.container1{
+    width: 1440px;
+  }
+.main-img img{
+  height: 443px;
+
+}
+
