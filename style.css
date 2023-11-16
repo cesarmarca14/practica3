@@ -3,10 +3,11 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 body{
+
   display: flex;
   width: 1440px;
   flex-direction: column;
@@ -129,5 +130,137 @@ h1 {
 .main-img img{
   height: 443px;
 
+}
+
+/* Anthony Patriks */
+
+
+.producto1{
+    background-image: url(./images/desktop/image-transform.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.contenidop{
+    text-align: left; 
+    max-width: 600px; 
+    margin: auto; 
+}
+.contenidop h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; 
+}
+.contenidop h1,
+.contenidop p,
+.contenidop h3 {
+    margin: 20px 80px; 
+    text-align: left;
+    
+}
+.decoracion1 {
+    border-bottom: 10px solid rgba(160, 160, 36, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
+.decoracion2 {
+    border-bottom: 10px solid rgba(173, 2, 216, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
+.producto2{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.decoracion {
+    border-bottom: 10px solid rgba(223, 223, 16, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
+/*--- header ----*/
+
+header{
+    font-family: 'Barlow', sans-serif;
+    width: 1440px;
+    height: 500px;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header .content-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+header .content-nav .logo{
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 20px;
+    color: #fff;
+}
+
+header .content-nav nav ul{
+    display: flex;
+    width: 330px;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+header .content-nav nav ul li{
+    list-style: none;
+}
+
+header .content-nav nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: all ease-in-out .5s;
+}
+
+header .content-nav nav ul li a:hover{
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    
+}
+
+header .content-portada{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-portada h2{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+    font-family: 'Fraunces', serif;
+}
+
+
+.producto-producto-3{
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.figure{
+    text-align: center;
+    
+}
+
+.imagenes{
+    width: 480px;
 }
 
