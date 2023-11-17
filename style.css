@@ -264,3 +264,48 @@ header .content-portada{
     width: 480px;
 }
 
+
+/* RAFAEL OSNAYO */
+.contenedor-testimono {
+    background-color: rgb(240, 236, 232);
+    width: 1440px;
+    height: 475px;
+}
+.titulo {
+    top: 152px;
+    font-family: Arial-Bold, Helvetica;
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding-top: 60px;
+}
+.img-testimonio {
+    display: flex;
+    justify-content:space-around;
+}
+
+.img-cli {
+    height: 60px;
+    border-radius: 70px;
+}
+.testimonials {
+    display: flex;
+}
+.cli {
+    padding-top: 5px;
+    width: 1440px;
+}
+.parrafo {
+    text-align: center;
+    padding: 10%;
+}
+.nombres {
+    font-weight: bold;
+    text-align: center;
+}
+.cargo {
+    text-align: center;
+    
+}
+
